@@ -1,6 +1,48 @@
-.env
-.venv
-.cursorrules
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.docker
+!.env.example
+
+# IDE
+.cursorrules
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Logs
 logs/
+*.log
+
+# Docker local data
+pgdata/
+redisdata/
+
+# mypy / type checking
+.mypy_cache/
